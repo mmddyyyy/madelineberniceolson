@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+
+#logo , li {
+font-family: 'Faster One' , cursive;
+
+}
+
+header {
+	font-size: 50px;
+	margin-bottom: 30px;
+	font-family: 'Roboto Mono', monospace;
+	color: #8677a8;
+	
+}
+
+
+#bio {
+	height: 100vh;
+	padding-top: 100px;
+	padding-left: 30px;
+	font-family: 'Roboto Mono', monospace;
+	color: #8677a8;
+}
+
+#heart img {
+	width: 400px;
+	display: inline-block;
+	height: 0 auto;
+	padding-top: 100px;
+}
+
+
+#logo {
+	font-size: 50px;
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100px;
+}
+
+
+
+#background {
+	background: 
+	url("pics/index/background2.png")
+	center center / cover
+		no-repeat;
+		top: 0px;
+		left: 0px;
+		width: 199vh;
+		z-index: -100;
+		background-attachment: fixed;
+	
+}
+
+#pagewrap {
+	width: 70%;
+	margin: 0 auto;
+
+}
+#installation img{
+	width: 600px;
+	height: 0 auto;
+	display: inline-block;
+	padding:50px;
+}
+
+#digital > img {
+	width: 600px;
+	height: 0 auto;
+	display: inline-block;
+	padding:50px;
+}
+ #gifs > img {
+width: 600px;
+	height: 0 auto;
+	display: inline-block;
+	padding: 50px;
+ } 
+
+ #videos > iframe {
+ 	display: inline-block;
+ 	padding:30px;
+ }
+
+#fibers > img {
+	width: 600px;
+	display: inline-block;
+	padding: 50px;
+}
+
+
+#collages > img {
+width: 600px;
+	height: 0 auto;
+	display: inline-block;
+	padding:50px;
+} 
+
+#sculpture > img {
+	width: 600px;
+	height: 0 auto;
+	display: inline-block;
+	padding:50px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 450px;
+    /*background-color: #b291f7;*/
+    position: fixed;
+    left: 10px;
+    top:200px;
+}
+
+li a {
+    display: block;
+	color: #b291f7;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+li a:hover {
+	
+	color:#c0f7ea;
+	text-shadow: 10px 10px #cfbbf9;
+}
+
+
+
